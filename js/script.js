@@ -13,7 +13,8 @@ $(function() {
 			"infoEmpty": 'Показано от 0 до 0 из 0 записей',
 			"info": 'Показано от _START_ до _END_ из _TOTAL_ записей',
 			"lengthMenu": 'Показано _MENU_ записей'
-		}
+		},
+		'ordering': [0, 'desc']
 
 	});
 
@@ -61,7 +62,6 @@ $(function() {
 	  		}
 	  	}
 	  	formData.append('searchUrl', result);
-
 		//Отправляем ajax запрос в getStat.php
 		$.ajax({
 			//метод отправки
@@ -135,7 +135,7 @@ $(function() {
 		});
 
 	});
-	
+
 	function showModalMessage(message){
 		var myModal = new bootstrap.Modal(document.getElementById('formModal1'), {
 			keyboard: false
