@@ -23,6 +23,6 @@
 	  	</a>
 	    <a class="nav-link" id="nav-home-tab"  href="/" >Главная</a>
 	    <a class="nav-link" id="nav-statis-tab"  href="/statismaster/" >Проверка посещаемости</a>
-	    <a class="nav-link disabled" id="nav-contact-tab"  href="#nav-contact"  >История проверок</a>
+	    <a class="nav-link" id="nav-history-tab"  href="/visitsHistory/"  >История проверок</a>
 	  </div>
 	</nav>

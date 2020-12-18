@@ -31,10 +31,17 @@ $(function() {
 	if(window.location.pathname.includes("/statismaster/")){
 		$("#nav-statis-tab").addClass("active");
 		$("#nav-home-tab").removeClass("active");
+		$("#nav-history-tab").removeClass("active");
+	}
+	else if(window.location.pathname.includes("/visitsHistory/")){
+		$("#nav-statis-tab").removeClass("active");
+		$("#nav-home-tab").removeClass("active");
+		$("#nav-history-tab").addClass("active");
 	}
 	else{
 		$("#nav-home-tab").addClass("active");
 		$("#nav-statis-tab").removeClass("active");
+		$("#nav-history-tab").removeClass("active");
 	}
 	//Подписываемся на событие отправки формы
 	$("#urlForm").submit(function( event ) {
