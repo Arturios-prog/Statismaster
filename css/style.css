@@ -1,0 +1,30 @@
+.statisForm{
+	width: 530px;
+
+}
+.topMenu{
+	margin-bottom: 30px;
+}
+.textDescribe{
+	margin-bottom: 18px;
+}
+.table .table-striped .table-bordered {
+	border-bottom: 1px solid grey;
+}
+
+.table.dataTable.no-footer{
+	border-bottom: 1px solid grey;
+}
+
+table.dataTable thead th, table.dataTable tfoot th {
+	font-weight: normal;
+}
+
+.sizeImg{
+	height: 750px;
+	width: 800px;
+}
+.logo{
+	width: 150px;
+	height: 47px; !important
+}
