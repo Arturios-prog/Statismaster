@@ -28,14 +28,25 @@ $(function(){
 
 		success:function(response){
 			for(let key in response){
-				console.log(response[key].request_time);
 				dTable.row.add([response[key].request_time, response[key].site_name, response[key].visits_month,
-				 response[key].visits_day, response[key].visits_day]).draw(false);
+					response[key].visits_day, response[key].visits_online]).draw(false);
 			}
-
-			//начинаем строить таблицу
 			
-
 		}
-	})
+	});
+
+	$("#deleteAll").click(function( event ) {
+		//Отменяем стандартное поведение формы
+		event.preventDefault();
+		$.ajax({
+			type:"POST",
+
+			url: "../php/dataDelete.php",
+
+			success:function(response){
+				location.reload()
+			}
+		});
+	});
+
 });

@@ -26,5 +26,16 @@ table.dataTable thead th, table.dataTable tfoot th {
 }
 .logo{
 	width: 150px;
-	height: 47px; !important
+	height: 47px !important; 
+}
+.btnDelete{
+	width: 175px;
+	position: absolute;
+    left: 40%;;
+	top: 80px;
+	z-index: 1;
+}
+
+.marginTable{
+	margin-top: 80px;
 }

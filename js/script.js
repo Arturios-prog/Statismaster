@@ -97,6 +97,23 @@ $(function() {
 
 					//console.log(response.slice(response.lastIndexOf("LI_month_vis"), response.indexOf(`LI_week_hit`)).replace(/[^\d]/g, ''));
 
+					$.ajax({
+						//метод отправки
+						type: "POST",
+			//куда отправляем запрос
+			url: "../php/dataRecieve.php",
+			//что мы отправляем
+			data: {
+				"request_time": timeResponse,
+				"site_name": nameSite,
+				"visits_month": visMonth,
+				"visits_day": visDay,
+				"visits_online": visOnline
+			},
+			success: function(response){
+				console.log(response);
+			}
+		})
 				}
 				if(response.includes("LI_error")){
 					console.log(response);
@@ -118,6 +135,7 @@ $(function() {
 		});
 
 	});
+	
 	function showModalMessage(message){
 		var myModal = new bootstrap.Modal(document.getElementById('formModal1'), {
 			keyboard: false

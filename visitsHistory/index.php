@@ -1,9 +1,8 @@
 <? include '../header.php'; ?>
 <script type="text/javascript" src="script.js"></script>
-<div id = "historyTable">
-</div>
+<button id ="deleteAll" type="submit" class="btn btn-primary btnDelete">Удалить данные</button>
 
-<div class="tableResult container" >
+<div class="tableResult container marginTable" >
 	<table id="tHistoryResult" class="table table-striped table-bordered">
 		<thead>
 			<tr>
