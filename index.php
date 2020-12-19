@@ -6,7 +6,7 @@
 		<div class="card">
 			<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
 				<img
-				src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
+				src="/assets/pictures/img_main.png"
 				class="card-img-top"
 				alt="..."
 				/>
@@ -28,7 +28,7 @@
 		<div class="card">
 			<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
 				<img
-				src="https://mdbootstrap.com/img/new/standard/city/042.jpg"
+				src="/assets/pictures/img_stat1.png"
 				class="card-img-top"
 				alt="..."
 				/>
@@ -40,7 +40,7 @@
 				<h5 class="card-title">Страница "Проверка посещаемости"</h5>
 				<p class="card-text">
 					Данная страница позволяет произвести непосредственную работу со службами, отвечающими за сбор статистики посещения сайтов.
-					В контексте данной курсовой работы, к таким службам относятся: Liveinternet.ru, Alexa Web.
+					В контексте данной курсовой работы, к таким службам относятся: Liveinternet.ru.
 				</p>
 			</div>
 		</div>
@@ -50,7 +50,7 @@
 		<div class="card">
 			<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
 				<img
-				src="https://mdbootstrap.com/img/new/standard/city/043.jpg"
+				src="/assets/pictures/img_stat2.png"
 				class="card-img-top"
 				alt="..."
 				/>
@@ -76,11 +76,16 @@
 	</div>
 	<div class="col">
 		<div class="card">
-			<img
-			src="https://mdbootstrap.com/img/new/standard/city/044.jpg"
-			class="card-img-top"
-			alt="..."
-			/>
+			<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+				<img
+				src="/assets/pictures/img_history1.png"
+				class="card-img-top"
+				alt="..."
+				/>
+				<a href="/visitsHistory/">
+					<div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+				</a>
+			</div>
 			<div class="card-body">
 				<h5 class="card-title">Страница "История проверок"</h5>
 				<p class="card-text">

@@ -13,7 +13,11 @@
 	<script type="text/javascript" src="/js/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="/js/datatables.min.js"></script>
 	<script type="text/javascript" src="/js/script.js"></script>
-
+	<style >
+		body{
+			background: url(/assets/pictures/background2.png); 
+		}
+	</style> 
 </head>
 <body>
 	<nav>
